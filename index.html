@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ninja studio</title>
+	<meta name="description" content="music player">
+	<link rel="stylesheet" type="text/css" href="mProject.css">
+	<link rel="shortcut icon" type="image/icon" href="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000030_1550710829_ninjasicon.png">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+	
+<header class="shadow">
+	<audio id="hh" class="music" src="song\WhatsApp Audio 2019-07-03 at 7.43.04 AM.mpeg" controls></audio>
+	<audio  id="lam" class="music"src="song\WhatsApp Audio 2019-07-03 at 7.43.21 AM.mpeg" controls> </audio>
+	<audio id="nbh" class="music"src="song\WhatsApp Audio 2019-07-03 at 7.43.12 AM.mp4" controls></audio>
+	</audio>
+	<audio id="m1" class="music" src="song\WhatsApp Audio 2019-07-03 at 7.43.08 AM.mpeg" controls></audio>
+	<audio id="m2" class="music" src="song\WhatsApp Audio 2019-07-03 at 7.43.10 AM(1).mp4" controls></audio>
+	<div>
+	<img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000030_1550710829_ninjasicon.png" class="iconC">
+	<span class="iconC inlineBlocks" >Ninja Studio</span>
+	
+	<div class="dropdown">
+<button class="dropbtn" id="fav">favourites</button>
+<div class="dropdown-content">
+	<a href="#hh" onclick="document.getElementById('hh').play();">happy happy</a>
+<a href="#lam"onclick="document.getElementById('lam').play();">lamborghini</a>
+<a href="#nbh"onclick="document.getElementById('nbh').play();">nothing break like heart</a>
+</div>
+</div>
+</div> 
+<div id="searchsction">
+		<button type="submit">
+		<i class="fas fa-search headericons"></i>
+	</button>
+		<form class="inlineBlocks" id="search-btn">
+			<input name="search" type="text" placeholder="search...">
+		</form>
+	
+	<div class="dropdown">
+<button class="dropbtn"><i class="far fa-bell headericons"></i></button>
+<div class="dropdown-content">
+	<a href="#hh" onclick="document.getElementById('hh').play();">new release listen now</a>
+<a href="#lam"onclick="document.getElementById('lam').play();"> new trending</a>
+<a href="#nbh"onclick="document.getElementById('nbh').play();">you don't wanna miss</a>
+</div>
+</div>
+	
+		
+ 	<div class="dropdown">
+<button class="dropbtn"><img src="img\disha.jpg" class="headerimage"></button>
+<div class="dropdown-content">
+<a href="#" >account</a>
+<a href="#">playlist</a>
+<a href="#">subscribed</a>
+</div>
+</div>
+	</div>
+
+<div id="hamburger" class="noneDisplay">
+<div class="dropdown">
+<button class="dropbtn"><i class="fas fa-bars"></i></button>
+<div class="dropdown-content">
+<a href="#fav">favourite</a>
+<a href="#" >account</a>
+<a href="#">playlist</a>
+<a href="#">subscribed</a>
+</div>
+</div>
+	</div>	
+</div>
+	</div>
+</header>
+<artical>
+<main>
+	<!-- image slider -->
+	<div id="slide-container" class="shadow">
+	<img src="img\musicv.jpg" id="img1">
+	<img src="img\musicv2.jpg" id="img2">
+	<img src="img\musicv1.jpg" id="img3">
+	<div id="slides">
+		<a><img src="img\ts.jpg" ></a>
+	</div>
+	<div id="navigation">
+		<ul>
+			<li><a href="#img1">.</a></li>
+			<li><a href="#img2">.</a></li>
+			<li><a href="#img3">.</a></li>
+		</ul>
+	</div>
+</div>
+<h2>latest Release</h2>
+<div class="latest" id="ltst">
+	<a href="#m1" onclick="document.getElementById('m1').play();">
+	<div class="shadow">
+		<img src="img\s.jpg" heigt=50% width=70%>
+		<span>
+			senorita(03-07-19)
+		</span>
+	</div>
+	</a>
+	<a href="#m1" onclick="document.getElementById('m1').play();">
+	<div class="shadow">
+		<img src="img\s.jpg" heigt=50% width=70%>
+		<span>
+			senorita(03-07-19)
+		</span>
+	</div>
+	</a>
+	<a href="#m1" onclick="document.getElementById('m1').play();">
+	<div class="shadow">
+		<img src="img\s.jpg" heigt=50% width=70%>
+		<span>
+			senorita(03-07-19)
+		</span>
+	</div>
+	</a>
+	<a href="#m1" onclick="document.getElementById('m1').play();">
+	<div class="shadow ">
+		<img src="img\s.jpg" heigt=50% width=70%>
+		<span>
+			senorita(03-07-19)
+		</span>
+	</div>
+		</a>
+</div>
+<h2>popular Artists</h2>
+<div id="popArtist" >
+	<div>
+		<a href="artist.html">
+		<img src="img\379286-lata-mangeshkar-rna.jpg"height=100% width=100% class="shadow">
+	</a>
+	</div>
+	<div>
+		<a href="artist.html">
+		<img src="img\ed.jpg"height=100% width=100% class="shadow">
+	</a>
+	</div>
+	<div>
+		<a href="artist.html">
+		<img src="img\Diljit-Dosanjh-HD-Photos-1.jpg"height=100% width=100% class="shadow">
+	</a>
+	</div>
+	
+	<div>
+		<a href="artist.html">
+		<img src="img\saleena.jpg"height=100% width=100% class="shadow">
+	</a>
+	</div>
+	<div>
+		<a href="artist.html">
+		<img src="img\ts.jpg"height=100% width=100% class="shadow">
+	</a>
+	</div>
+	<div>
+		<a href="artist.html">
+		<img src="img\music3.jpg"height=100% width=100% class="shadow">
+	</a>
+	</div>
+</div>
+<h2>categories</h2>
+<div id="choose" >
+	<div>
+		<div class="innerdiv">party</div>
+		<a href="artist.html">
+		<img src="img\party.jpg"
+		height="100vh" width="200vh"
+		 class="shadow">
+	</a>
+	</div>
+	<div>
+		<div class="innerdiv">Retro</div>
+		<a href="artist.html">
+		<img src="img\retro.jpg"height="100vh" width="200vh" class="shadow">
+	</a>
+	</div>
+	<div>
+		<div class="innerdiv">Workout</div>
+		<a href="artist.html">
+		<img src="img\workout.jpg"height="100vh" width="200vh" class="shadow">
+	</a>
+	</div>
+	
+	<div>
+		<div class="innerdiv">pop</div>
+		<a href="artist.html">
+		<img src="img\pop.jpg"height="100vh" width="200vh" class="shadow">
+	</a>
+	</div>
+	<div>
+		<div class="innerdiv">Rock</div>
+		<a href="artist.html">
+		<img src="img\rock.jpg"height="100vh" width="200vh" class="shadow">
+	</a>
+	</div>
+	<div>
+		<div class="innerdiv">Love</div>
+		<a href="artist.html">
+		<img src="img\love.jpg"height="100vh" width="200vh" class="shadow">
+	</a>
+	</div>
+	
+</div>
+<h2>Latest English</h2>
+<div id="ltsteng">
+	<div>
+		<a href="#m1" onclick="document.getElementById('m1').play();">
+		<img src="img\mi2.jpg"
+		height="100vh" width="200vh"
+		 class="shadow">
+	</a>
+	</div>
+	<div>
+		<a href="#m1" onclick="document.getElementById('m1').play();">
+		<img src="img\mi3.jpg"
+		height="100vh" width="200vh"
+		 class="shadow">
+	</a>
+	</div>
+	<div>
+		<a href="#nbh" onclick="document.getElementById('nbh').play();">
+		<img src="img\music1.jpg"height="100vh" width="200vh" class="shadow">
+	</a>
+	</div>
+	<div>
+		<a href="#nbh" onclick="document.getElementById('nbh').play();">
+		<img src="img\mi1.png"height="100vh" width="200vh" class="shadow">
+	</a>
+	</div>
+	
+	<div>
+		<a href="#m1" onclick="document.getElementById('m1').play();">
+		<img src="img\m2.jpg"height="100vh" width="200vh" class="shadow">
+	</a>
+	</div>
+	
+</div>
+<h2>Latest Hindi</h2>
+<div id="ltsthindi">
+	<div>
+		<a href="#lam" onclick="document.getElementById('lam').play();">
+		<img src="img\roses.jpg"
+		height="100vh" width="200vh"
+		 class="shadow">
+	</a>
+	</div>
+	<div>
+		<a href="#hh" onclick="document.getElementById('hh').play();">
+		<img src="img\neha.jpg"height="100vh" width="200vh" class="shadow">
+	</a>
+	</div>
+	<div>
+		<a href="#lam" onclick="document.getElementById('lam').play();">
+		<img src="img\music2.jpg"height="100vh" width="200vh" class="shadow">
+	</a>
+	</div>
+	
+	<div>
+		<a href="#hh" onclick="document.getElementById('hh').play();">
+		<img src="img\mi3.jpg"height="100vh" width="200vh" class="shadow">
+	</a>
+	</div>
+</div>
+</main>
+<aside>
+		<h2>My Playlist</h2>
+		<div class="dropdown">
+<button class="dropbtn">Queue</button>
+<div class="dropdown-content">
+	<a href="#">playlist</a>
+	<a href="#">queue</a>
+</div>
+</div>
+		<ul class="shadow">
+			<a href="#m1" onclick="document.getElementById('m1').play();">
+			<li>
+				<img src="img\wp1834121.jpg">
+				<h3>stiches</h3>
+				<span>shawn Mendes</span>
+			</li>
+		</a>
+		<a href="#m2" onclick="document.getElementById('m2').play();">
+			<li>
+				<img src="img\images.jpg">
+				<h3>work</h3>
+				<span>camila cabello</span>
+			</li>
+		</a>
+		<a href="#nbh" onclick="document.getElementById('nbh').play();">
+			<li>
+				<img src="img\download.jpg">
+				<h3>new rules</h3>
+				<span>lipa dua</span>
+			</li>
+		</a>
+		<a href="#m1" onclick="document.getElementById('m1').play();">
+						<li>
+				<img src="img\wp1834121.jpg">
+				<h3>stiches</h3>
+				<span>shawn Mendes</span>
+			</li>
+		</a>
+		<a href="#nbh" onclick="document.getElementById('nbh').play();">
+			<li>
+				<img src="img\images.jpg">
+				<h3>work</h3>
+				<span>camila cabello</span>
+			</li>
+		</a>
+		<a href="#m2" onclick="document.getElementById('m2').play();">
+			<li>
+				<img src="img\download.jpg">
+				<h3>new rules</h3>
+				<span>lipa dua</span>
+			</li>
+		</a>
+		<a href="#m1" onclick="document.getElementById('m1').play();">
+						<li>
+				<img src="img\wp1834121.jpg">
+				<h3>stiches</h3>
+				<span>shawn Mendes</span>
+			</li>
+		</a>
+		<a href="#nbh" onclick="document.getElementById('nbh').play();">
+			<li>
+				<img src="img\images.jpg">
+				<h3>work</h3>
+				<span>camila cabello</span>
+			</li>
+		</a>
+		<a href="#m2" onclick="document.getElementById('m2').play();">
+			<li>
+				<img src="img\download.jpg">
+				<h3>new rules</h3>
+				<span>lipa dua</span>
+			</li>
+		</a>
+		</ul>
+</aside>
+</artical>
+</body>
+</html>
